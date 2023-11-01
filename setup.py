@@ -24,7 +24,7 @@ setuptools.setup(
         "dev": [
             "pytest",
             "gin-config",
-            "t5x[tpu] @ git+https://github.com/google-research/t5x",
+            "t5x[gpu] @ git+https://github.com/google-research/t5x",
             "flaxformer @ git+https://github.com/google/flaxformer",
             "pycocoevalcap",
             "apache-beam[gcp]",
